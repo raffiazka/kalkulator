@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="kalkulator" >
+    <h1 style="text-align: center;">CALCULATOR</h1>
+    
+   
+        <label for="angka1">Masukan angka pertama</label>
+    
+        <input type="number" id="angka1" placeholder="angka 1">
+        
+        <label for="angka2">Masukan angka kedua</label>
+        
+        <input type="number" id="angka2" placeholder="angka 2">
+
+        <div>
+        
+        <label> Hasil : </label>
+       
+        <input type="text" readonly id="hasil" placeholder="hasil">
+    <br>
+
+        <button onclick="hitung ('pertambahan')">+</button>
+        <button onclick="hitung ('pengurangan')">-</button>
+        <button onclick="hitung ('perkalian')">x</button>
+        <button onclick="hitung ('pembagian')">/</button>
+    </div>
+<script src="calculator.js"></script>
+</body>
+</html>
